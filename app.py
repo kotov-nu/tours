@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from tours_searching.data import title, subtitle, description, departures, tours
+from .data import title, subtitle, description, departures, tours
 
 app = Flask(__name__)
 
